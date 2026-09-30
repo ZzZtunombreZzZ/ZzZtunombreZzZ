@@ -1,5 +1,5 @@
 <a href="https://github.com/ZzZtunombreZzZ">
-  <img src="assets/hero.svg" width="100%" alt="MizerZ, Estudiante ICIF. Computer vision, full-stack web and bots.">
+  <img src="assets/hero-mizerz.svg" width="100%" alt="MizerZ, Estudiante ICIF. Computer vision, full-stack web and bots.">
 </a>
 
 <br>
