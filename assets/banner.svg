@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="320" viewBox="0 0 960 320" role="img" aria-label="vim perfil.yml: ZzZtunombreZzZ, Estudiante ICIF">
+  <style>
+    text { font-family: 'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace; font-size: 13px; fill: #B7B4AE; white-space: pre; }
+    .k { fill: #8FB38F; } .v { fill: #F0EDE6; } .n { fill: #726E68; } .p { fill: #DF9B9B; } .g { fill: #E2BE7A; } .b { fill: #9BBFE0; }
+    .art { font-size: 16px; fill: #DF9B9B; }
+    .f1 { opacity: 1; animation: f1 8s infinite; }
+    .f2 { opacity: 0; animation: f2 8s infinite; }
+    @keyframes f1 { 0%, 44% { opacity: 1; } 50%, 94% { opacity: 0; } 100% { opacity: 1; } }
+    @keyframes f2 { 0%, 44% { opacity: 0; } 50%, 94% { opacity: 1; } 100% { opacity: 0; } }
+    .cur { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) {
+      .f1 { animation: none; } .f2 { animation: none; } .cur { animation: none; }
+    }
+  </style>
+
+  <!-- window -->
+  <rect x="1" y="1" width="958" height="318" rx="14" fill="#0A0A0A" stroke="#33312F" stroke-width="2"/>
+  <path d="M1 15 a14 14 0 0 1 14 -14 h930 a14 14 0 0 1 14 14 v21 h-958 z" fill="#24211F"/>
+  <circle cx="24" cy="19" r="6" fill="#DF9B9B"/>
+  <circle cx="44" cy="19" r="6" fill="#E2BE7A"/>
+  <circle cx="64" cy="19" r="6" fill="#8FB38F"/>
+  <text x="480" y="23" text-anchor="middle" class="n">vim perfil.yml</text>
+
+  <!-- left pane: ascii art -->
+  <rect x="20" y="52" width="300" height="222" rx="8" fill="#24211F" stroke="#33312F"/>
+  <text x="34" y="72" class="n" font-size="11">ASCII.MAP</text>
+  <text x="306" y="72" class="n" font-size="11" text-anchor="end">300x222</text>
+  <g class="f1" xml:space="preserve">
+    <text class="art" x="118" y="112">    .--.</text>
+    <text class="art" x="118" y="132">   |o_o |</text>
+    <text class="art" x="118" y="152">   |:_/ |</text>
+    <text class="art" x="118" y="172">  //   \ \</text>
+    <text class="art" x="118" y="192"> (|     | )</text>
+    <text class="art" x="118" y="212">/'\_   _/`\</text>
+    <text class="art" x="118" y="232">\___)=(___/</text>
+  </g>
+  <g class="f2" xml:space="preserve">
+    <text class="art" x="106" y="132" style="fill:#9BBFE0">    \ | /</text>
+    <text class="art" x="106" y="152" style="fill:#9BBFE0">  '-.\|/.-'</text>
+    <text class="art" x="106" y="172" style="fill:#9BBFE0"> --=  *  =--</text>
+    <text class="art" x="106" y="192" style="fill:#9BBFE0">  .-'/|\'-.</text>
+    <text class="art" x="106" y="212" style="fill:#9BBFE0">    / | \</text>
+  </g>
+  <text x="170" y="262" text-anchor="middle" class="n" font-size="11">estudiante.icif · ~/perfil</text>
+
+  <!-- right pane: yaml -->
+  <rect x="336" y="52" width="604" height="222" rx="8" fill="#24211F" stroke="#33312F"/>
+  <text x="350" y="72" class="v" font-size="11">perfil.yml <tspan class="n">[yaml]</tspan></text>
+  <rect x="800" y="60" width="128" height="18" rx="9" fill="#371E1E"/>
+  <text x="864" y="73" text-anchor="middle" class="p" font-size="11">@ZzZtunombreZzZ</text>
+
+  <g xml:space="preserve">
+    <text x="350" y="98"><tspan class="n"> 1</tspan>  <tspan class="k">perfil:</tspan> <tspan class="v">ZzZtunombreZzZ</tspan> <tspan class="n">#</tspan> <tspan class="g">Estudiante ICIF</tspan></text>
+    <text x="350" y="115"><tspan class="n"> 2</tspan>  <tspan class="k">stack:</tspan></text>
+    <text x="350" y="132"><tspan class="n"> 3</tspan>    <tspan class="k">lenguajes:</tspan> <tspan class="v">Python · TypeScript · JavaScript · SQL</tspan></text>
+    <text x="350" y="149"><tspan class="n"> 4</tspan>    <tspan class="k">web:</tspan> <tspan class="v">React · Next.js · Vite · Tailwind</tspan></text>
+    <text x="350" y="166"><tspan class="n"> 5</tspan>    <tspan class="k">backend:</tspan> <tspan class="v">Node/Express · FastAPI · Socket.IO</tspan></text>
+    <text x="350" y="183"><tspan class="n"> 6</tspan>    <tspan class="k">datos:</tspan> <tspan class="v">Supabase · PostgreSQL · Redis · SQLite</tspan></text>
+    <text x="350" y="200"><tspan class="n"> 7</tspan>    <tspan class="k">vision:</tspan> <tspan class="v">OpenCV · Ultralytics YOLO · NumPy</tspan></text>
+    <text x="350" y="217"><tspan class="n"> 8</tspan>    <tspan class="k">bots:</tspan> <tspan class="v">discord.js · discord.py · whatsapp-web.js</tspan></text>
+    <text x="350" y="234"><tspan class="n"> 9</tspan>    <tspan class="k">ops:</tspan> <tspan class="v">Docker · systemd · GitHub Actions</tspan></text>
+    <text x="350" y="251"><tspan class="n">10</tspan>  <tspan class="k">repos:</tspan> <tspan class="p">20</tspan></text>
+    <text x="350" y="268"><tspan class="n">11</tspan>  <tspan class="k">estado:</tspan> <tspan class="b">aprendiendo_siempre</tspan> <tspan class="cur p">█</tspan></text>
+  </g>
+
+  <!-- status bar -->
+  <rect x="20" y="284" width="68" height="20" rx="4" fill="#371E1E"/>
+  <text x="54" y="298" text-anchor="middle" class="p" font-size="11" font-weight="700">NORMAL</text>
+  <text x="100" y="298" class="v" font-size="11">perfil.yml</text>
+  <text x="480" y="298" text-anchor="middle" class="n" font-size="11">[utf-8]</text>
+  <text x="940" y="298" text-anchor="end" class="n" font-size="11">11L · yaml · 11:28</text>
+</svg>

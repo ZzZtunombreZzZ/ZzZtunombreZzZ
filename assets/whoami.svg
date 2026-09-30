@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="270" viewBox="0 0 960 270" role="img" aria-label="Terminal whoami: ZzZtunombreZzZ, Estudiante ICIF">
+  <style>
+    text { font-family: 'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace; font-size: 14px; fill: #B7B4AE; white-space: pre; }
+    .k { fill: #8FB38F; font-weight: 700; } .v { fill: #F0EDE6; } .n { fill: #726E68; } .p { fill: #DF9B9B; } .g { fill: #E2BE7A; } .b { fill: #9BBFE0; }
+    .flake { transform-origin: 788px 150px; animation: spin 24s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    @media (prefers-reduced-motion: reduce) { .flake { animation: none; } }
+  </style>
+
+  <rect x="1" y="1" width="958" height="268" rx="14" fill="#0A0A0A" stroke="#726E68" stroke-width="1.5"/>
+  <circle cx="26" cy="24" r="5" fill="#DF9B9B"/>
+  <circle cx="44" cy="24" r="5" fill="#E2BE7A"/>
+  <circle cx="62" cy="24" r="5" fill="#8FB38F"/>
+  <text x="82" y="29" class="n" font-size="12">zzz@icif · perfil shell · online</text>
+
+  <!-- left: shell -->
+  <rect x="24" y="48" width="604" height="196" rx="10" fill="#24211F" stroke="#33312F"/>
+  <g xml:space="preserve">
+    <text x="44" y="78"><tspan class="k">❯ whoami</tspan></text>
+    <text x="44" y="100"><tspan class="v">ZzZtunombreZzZ</tspan>   <tspan class="n">—</tspan>  <tspan class="g">Estudiante ICIF</tspan></text>
+    <text x="44" y="128"><tspan class="n">enfoque:</tspan>   <tspan class="v">visión por computador · web full-stack · bots</tspan></text>
+    <text x="44" y="150"><tspan class="n">modo:</tspan>      <tspan class="v">aprender construyendo proyectos reales</tspan></text>
+    <text x="44" y="182"><tspan class="k">❯ ls proyectos/ --public</tspan></text>
+    <text x="44" y="206"><tspan class="p">farmaflow/</tspan>        <tspan class="v">fast-track para farmacias hospitalarias</tspan></text>
+    <text x="44" y="228"><tspan class="p">dash-impresoras/</tspan>  <tspan class="v">monitor de impresoras: estado, papel y tóner</tspan></text>
+  </g>
+
+  <!-- right: snow runtime -->
+  <rect x="644" y="48" width="292" height="196" rx="10" fill="#24211F" stroke="#33312F"/>
+  <text x="664" y="76" class="g" font-size="13">snow runtime</text>
+  <g class="flake" stroke="#9BBFE0" stroke-width="2.5" stroke-linecap="round" fill="none">
+    <g id="arm">
+      <line x1="788" y1="150" x2="788" y2="100"/>
+      <line x1="788" y1="116" x2="778" y2="106"/>
+      <line x1="788" y1="116" x2="798" y2="106"/>
+      <line x1="788" y1="130" x2="780" y2="122"/>
+      <line x1="788" y1="130" x2="796" y2="122"/>
+    </g>
+    <use href="#arm" transform="rotate(60 788 150)"/>
+    <use href="#arm" transform="rotate(120 788 150)"/>
+    <use href="#arm" transform="rotate(180 788 150)"/>
+    <use href="#arm" transform="rotate(240 788 150)"/>
+    <use href="#arm" transform="rotate(300 788 150)"/>
+  </g>
+  <circle cx="788" cy="150" r="5" fill="#DF9B9B"/>
+  <text x="790" y="230" text-anchor="middle" class="n" font-size="12">status: aprendiendo_siempre</text>
+</svg>
